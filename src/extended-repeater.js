@@ -16,7 +16,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 
-  repeatStr = (n, s) => s.repeat(n);
+ function repeater(n, s) {
+  return s.repeat(n);
+ }
 
 
 module.exports = {
