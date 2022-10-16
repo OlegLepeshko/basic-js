@@ -51,7 +51,7 @@ function renameFiles(arr) {
   }
 }
 
-renameFiles(['doc', 'doc', 'image', 'doc(1)', 'doc'])
+renameFiles(['a', 'b', 'cd', 'b ', 'a(3)'])
 
 module.exports = {
   renameFiles
